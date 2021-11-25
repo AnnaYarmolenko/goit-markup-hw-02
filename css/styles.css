@@ -35,7 +35,6 @@ ol {
   color: var(--accent-color);
 }
 .link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -48,7 +47,6 @@ ol {
   color: #2196f3;
 }
 .contactshed {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,6 +82,7 @@ body {
 }
 .hero-button:hover {
   background: var(--accent-color);
+  cursor: pointer;
 }
 .section-text {
   font-weight: 900;
@@ -110,7 +109,6 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-primery);
 }
 .li-title p {
   font-weight: normal;
@@ -119,6 +117,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
+.our-team-section {
+  background: #f5f4fa;
+}
 .section-title2,
 .our-team-title {
   font-weight: bold;
@@ -126,7 +127,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-primery);
 }
 .name-title h3 {
   font-weight: 500;
@@ -134,7 +134,6 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-primery);
 }
 .profession-title p {
   font-weight: normal;
@@ -156,14 +155,17 @@ body {
   clip: rect(0 0 0 0);
 }
 .projects-button button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-primery);
   background: #f5f4fa;
   border-radius: 4px;
+  color: var(--text-primery);
+  cursor: pointer;
 }
 .projects-button button:hover,
 .projects-button button:focus {
@@ -198,7 +200,6 @@ footer {
   color: #ffffff;
 }
 .contactsfoot {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
