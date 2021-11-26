@@ -1,4 +1,5 @@
 :root {
+  --bg-hero-color: #2f303a;
   --accent-color: #2196f3;
 
   --bg-color: #ffffff;
@@ -27,7 +28,6 @@ ol {
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -35,16 +35,13 @@ ol {
 }
 .web {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   color: var(--accent-color);
 }
 .link {
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--text-primery);
@@ -54,9 +51,7 @@ ol {
   color: var(--accent-color);
 }
 .contactshed {
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--text-secondary);
@@ -75,12 +70,11 @@ body {
   background: var(--bg-color);
 }
 .hero-section {
-  background: #2f303a;
+  background: var(--bg-hero-color);
 }
 .hero-button {
   background: var(--accent-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -96,7 +90,6 @@ body {
 }
 .section-text {
   font-weight: 900;
-  font-style: normal;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
@@ -115,18 +108,13 @@ body {
   clip: rect(0 0 0 0);
 }
 .li-title h3 {
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .li-title p {
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
 .our-team-section {
@@ -134,12 +122,10 @@ body {
 }
 .section-title2,
 .our-team-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   text-shadow: 0 4px 4px #000000;
 }
 .name-title h3 {
@@ -147,14 +133,12 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .profession-title p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
 /* ----------Portfolio---------- */
@@ -170,7 +154,6 @@ body {
 }
 .projects-button button {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -187,7 +170,6 @@ body {
   color: var(--bg-color);
 }
 .our-projects-title h2 {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -198,7 +180,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
 /* ==========Footer styling========== */
@@ -207,19 +188,15 @@ footer {
 }
 .logo-footer {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--bg-color);
 }
 .contactsfoot {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .contactsfoot:hover,
