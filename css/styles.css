@@ -46,6 +46,9 @@ ol {
   letter-spacing: 0.02em;
   color: var(--text-primery);
 }
+.link.current {
+  color: var(--accent-color);
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -196,7 +199,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-secondary-light);
 }
 .contactsfoot:hover,
 .contactsfoot:focus {
